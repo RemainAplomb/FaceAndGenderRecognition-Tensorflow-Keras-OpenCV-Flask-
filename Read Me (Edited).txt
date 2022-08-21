@@ -1,0 +1,54 @@
+This website/program is made on the 18th of August 2022 
+by Rahmani Dibansa in accordance with the given task of
+creating a python program that can recognize faces and gender
+
+Things to note:
+1. The main.py is the standalone python program. I 
+   made it to test whether the face recognition works.
+2. After making sure that the python program is 
+   running without any issue, I converted it to flask
+3. I had to learn a little bit of flask for this task.
+   Fortunately, my foundation in python didn't fail me.
+   I was able to learn flask in just a couple of hours.
+// Added after the second technical exam
+4. It seems like 
+
+
+Problems that I encountered while creating the program:
+1. When I ran the website version, I encountered considerable
+   lag. I suppose this is due to my laptop's 4GB of RAM.
+2. Creating the python program was easy. But converting it
+   to Flask was hard since I don't have any prior experience
+   in using the Flask framework
+3. Website's design. Apparently, I have to create a static folder
+   just so Flask could locate my style.css. Troubleshooting
+   that problem took a lot of time. I was only able to solve it
+   by browsing through stackoverflow.
+4. Poor lighting will affect the detection of the eyes.
+// Added after the second technical exam
+5. While I was making the second technical exam, I've noticed
+   why my website output in the second technical task is lagging.
+   I should have placed the faceCascade and eyesCascade in the
+   __init__. Furthermore, captureWebcam was duplicated.
+
+How to run the website:
+1. Open the app.py and run it.
+2. Go to the link address provided when the app runs.
+
+Packages that needs to be installed:
+1. OpenCV
+2. Flask
+// Added after the second technical exam
+3. tensorflow
+4. keras
+5. civlib
+
+Resources used:
+1. https://getbootstrap.com/docs/5.2/getting-started/introduction/
+2. https://stackoverflow.com/questions/39407189/get-404-error-for-style-css-not-found
+3. https://stackoverflow.com/questions/22259847/application-not-picking-up-css-file-flask-python
+4. https://www.youtube.com/watch?v=Az1MH_e1hVA&t=500s
+5. https://www.youtube.com/watch?v=mNMv3WNgp0c&t=12s
+6. https://www.youtube.com/watch?v=du8vQC44PC4&t=3s
+// Added after the second technical exam
+7.https://www.youtube.com/watch?v=WOuAI5DhHyU
